@@ -1,0 +1,5 @@
+rake db:setup
+
+rails console
+
+Tweet.create(message: "This's a message", category_name: "1", location: "Home", show_location: true, zombie_id: 1)

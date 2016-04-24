@@ -1,0 +1,8 @@
+<ul>
+  <% zombies.each do |zombie| %>
+    <li>
+      <%= zombie.name %>
+      <%= "SMART ZOMBIE" if zombie.tweets.size > 1%>
+    </li>
+  <% end %>
+</ul>
